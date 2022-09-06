@@ -7,6 +7,7 @@
     <title>Barrilete Cosmico FC</title>
     <link rel="shortcut icon" href="/img/faviconARG.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
 </head>
 <body>
     
@@ -36,14 +37,14 @@
     </nav>
     <center>
     <header>
-        <h1>TENEMOS UN LUGAR PARA VOS</h1>
-        <h3>"El Sueño de 2 locos"</h3>
+        <h1 class="wow fadeInUp">TENEMOS UN LUGAR PARA VOS</h1>
+        <h3 class="wow fadeInUp">"El Sueño de 2 locos"</h3>
         <!-- <img src="../img/header.png" alt="" width="1200px"> -->
     </header>
     </center>
 
 <main>
-        <table id="table">
+        <table class="wow bounceInRight" id="table">
             <tr class="titulo-tabla">
                 <th>Plataforma</th>
                 <th>Ligas</th>
@@ -68,7 +69,7 @@
     
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2kURVRcOIyPsWcoaN4zbz3?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     
-        <section class="form-register">
+        <section class="form-register wow bounceInUp">
             <input class="controls" type="text" placeholder="Escriba su nombre" id="nombre">    
             <input class="controls" type="text" placeholder="Escriba su Apellido" id="Apellido">
             <input class="controls" type="mail" placeholder="Escriba su mail" id="Mail">
@@ -111,6 +112,11 @@
     </div>
     <p class="copyr">COPYRIGHT 2021</p>
 </footer>
+
+<script src="../js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 
     
 </body>
