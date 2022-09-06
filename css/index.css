@@ -1,0 +1,94 @@
+/* @media(max-width: 1024px){
+    .menu{
+        display: grid;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .encabezado{
+        justify-content: center;
+        align-items: center;
+    }
+    .encabezado h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .encabezado h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+    } */
+        /* .history{
+	    display: grid;
+	    grid-template-columns: auto;
+	    grid-template-areas: 
+	    "relato histo";
+	    padding: 5px;
+	    margin: 10px;
+    } */
+
+        /* .relato{
+	    grid-area: relato;
+        }
+        .histo{
+	    grid-area: histo;
+        }
+}
+    @media(max-width: 800px){
+        .menu{
+            display: grid;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            font-size: 10px;
+            grid-template-columns:1fr;
+            grid-template-areas: 
+
+        }
+        .encabezado{
+            justify-content: center;
+            align-items: center;
+        }
+            .encabezado h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .encabezado h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .main2{
+            display: flex;
+            justify-content: space-between;
+            align-items: inherit;
+            padding: 10px;
+            margin: 10px;
+        }
+            .history{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-areas: 
+            "relato histo";
+    
+            padding: 5px;
+            margin: 10px;
+            }
+    
+            .relato{
+            grid-area: relato;
+            }
+            .histo{
+            grid-area: histo;
+            } */
