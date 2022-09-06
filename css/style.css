@@ -375,7 +375,7 @@ button {
 }
 .history{
 	display: grid;
-	display: |flex;
+	display: flex;
 	grid-template-columns: auto;
 	grid-template-areas: 
 	"relato histo";
