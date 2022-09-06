@@ -7,6 +7,7 @@
     <title>Barrilete Cosmico FC</title>
     <link rel="shortcut icon" href="img/faviconARG.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- <link rel="stylesheet" href="./css/index.css"> -->
 </head>
 <body class="minnav">
@@ -35,9 +36,10 @@
     </nav>
     <center>
     <header class="princi">
-        <h1 class="titu">EL SUEÑO DE 2 LOCOS</h1>
-        <h2 class="subtitu">"Dónde el éxito deportivo no solo se mide en triunfos... se mide por las risas compartidas, los momentos cómplices y por sobre todo, por el sentido de pertenencia"</h5>
-        <img class="imag" src="img/header.png" alt="2 locos" width=100%>
+        <h1 class="titu wow tada">EL SUEÑO DE 2 LOCOS</h1>
+        <h2 class="subtitu wow tada">"Dónde el éxito deportivo no solo se mide en triunfos... se mide por las risas compartidas, los momentos cómplices y por sobre todo, por el sentido de pertenencia"</h5>
+        <div class="img"></div>
+            <!-- <img class="imag wow flipInX" src="img/header.png" alt="2 locos" width=70%> -->
     </header>
     </center>
     
@@ -56,7 +58,10 @@
             <img src="img/Logo Youtubee.png" alt="seguinos en Youtube" height="50px"></a>
     </div>
     <p class="copyr">COPYRIGHT 2021</p>
-</footer>
-    
+    </footer>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
