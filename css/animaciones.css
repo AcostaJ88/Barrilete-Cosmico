@@ -1,0 +1,13 @@
+@keyframes headeranimation{
+	0%{background-image: url(..//img/encabezado.jpeg)}
+	100%{background-image: url(../img/header.png);}
+}
+
+.princi .img{
+	height: 45vw;
+	width: 80%;
+	background-size: cover;
+	animation-name: headeranimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
