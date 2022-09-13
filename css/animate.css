@@ -454,6 +454,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceIn {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes bounceInDown {
