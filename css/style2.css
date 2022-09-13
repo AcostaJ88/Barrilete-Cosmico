@@ -22,6 +22,7 @@
 .bg-text-blue{
     color: rgb(51, 121, 213);
     text-align: center;
+	font-style: italic;
     }
 .bg-text-blue-foot{
     color: rgb(51, 121, 213);
@@ -52,6 +53,9 @@
 	margin-bottom: 25px;
 	border-radius: 4px;
 	color: black;
+	transform: skewX(5deg);
+	cursor: pointer;
+	transform: 2s;
 }
 .controls {
 	width: 380px;
@@ -139,4 +143,9 @@ button {
 	background  :aqua;
 	color       : black;
     }
+	body{
+		background-image: url(../img/Fondo3.jpeg);
+		background-attachment: fixed;
+		background-position: center;
+	}
 	
