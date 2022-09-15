@@ -1,0 +1,99 @@
+.form-register{
+    width: 390px;
+	background-image: url(../img/Fondo.jpeg);
+	background-attachment: initial;
+	padding: 5px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	color: $keyColor;
+	transform: skewX(5deg);
+	cursor: pointer;
+	transform: 2s;
+    & .controls{
+        width: 380px;
+        background: $backgroundWS;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border-color: $Bordercolorprimary;
+        border: 1px solid $Bordercolorprimary;
+        font-size: 18px;}
+    & .platform{
+        width: 50%;
+        background: $backgroundWS;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border-color: $Bordercolorprimary;
+        border: 1px solid $Bordercolorprimary;
+        font-size: 18px;}
+    & .coment{
+        width: 380px;
+        padding: 1px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border-color: $Bordercolorprimary;
+        border: 1px solid $Bordercolorprimary;
+        font-size: 18px;
+        display: inline-flexbox;
+        & p{
+            width: 350px;
+            padding: 11px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border-color: $Bordercolorprimary;
+            font-size: 18px;    
+            }
+        & .textarea {
+            width: 100%;
+            height: 150px;
+            padding: 1px;
+            border-radius: 4px;
+            margin-bottom: 1px;
+            font-size: 18px;
+            resize: none;
+                }
+            }
+    & input[type="checkbox"] + label {
+        font-weight: bold;
+        line-height: 3em;
+        color: $keyColor;
+        text-align: center;
+        }
+    & input[type="checkbox"]:checked + label {
+        color: $Bordercolorprimary;
+        text-align: center;
+        }    
+    & .button{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    & button {
+        padding: 5px;
+        margin: 10px;
+        font: bold 18px sans-serif;
+        border: 2px solid #333;
+        border-radius: 5px;
+        background-image: url(../img/Logo\ Argentina.png);
+        background-attachment: fixed;
+        cursor: pointer;
+        transform: rotate(-1.5deg);
+          &:hover, &:focus {
+            outline     : none;
+            background  :$Bordercolorprimary;
+            color       : $keyColor;
+        }
+    }
+    }
+    body{
+		background-image: url(../img/Fondo3.jpeg);
+		background-attachment: fixed;
+		background-position: center;
+	}
+
+
+
+

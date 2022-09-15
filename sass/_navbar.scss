@@ -1,0 +1,15 @@
+//nesting
+#botonera img{
+    width: 80px;
+}
+.bg-blue{
+	background-color: $BackgroundColor;
+}
+.bg-text-cards{
+    color: $secondaryColor;
+}
+.bg-text-blue{
+    color: $maincolor;
+    text-align: center;
+	font-family: $secondaryFont;
+}
