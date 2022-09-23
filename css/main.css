@@ -1,7 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+.submit, .button .reset {
+  padding: 5px;
+  margin: 10px;
+  font: bold 18px sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-image: url(../img/Logo\ Argentina.png);
+  background-attachment: fixed;
+  cursor: pointer;
+  transform: rotate(-1.5deg);
+}
+.submit:hover, .button .reset:hover, .submit:focus, .button .reset:focus {
+  outline: none;
+  background: aqua;
+  color: black;
+}
+
+.button .reset:hover {
+  color: rgb(10, 137, 65);
+  background-color: rgb(198, 17, 17);
+}
+
+.form-register .controls {
+  width: 380px;
+  border-color: aqua;
+  border: 1px solid aqua;
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.form-register {
+  background-image: url(../img/Fondo.jpeg);
+}
+
 .form-register {
   width: 390px;
-  background-image: url(../img/Fondo.jpeg);
   background-attachment: initial;
   padding: 5px;
   margin: auto;
@@ -12,16 +48,6 @@
   transform: skewX(5deg);
   cursor: pointer;
   transform: 2s;
-}
-.form-register .controls {
-  width: 380px;
-  background: whitesmoke;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  border-color: aqua;
-  border: 1px solid aqua;
-  font-size: 18px;
 }
 .form-register .platform {
   width: 50%;
@@ -74,22 +100,6 @@
   display: flex;
   justify-content: space-around;
 }
-.form-register button {
-  padding: 5px;
-  margin: 10px;
-  font: bold 18px sans-serif;
-  border: 2px solid #333;
-  border-radius: 5px;
-  background-image: url(../img/Logo\ Argentina.png);
-  background-attachment: fixed;
-  cursor: pointer;
-  transform: rotate(-1.5deg);
-}
-.form-register button:hover, .form-register button:focus {
-  outline: none;
-  background: aqua;
-  color: black;
-}
 
 body {
   background-image: url(../img/Fondo3.jpeg);
@@ -115,25 +125,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#botoneraredes .bg-text-footer {
-  color: black;
-  text-align: center;
-}
-#botoneraredes img {
-  width: 50px;
-}
-#botoneraredes .bg-text-blue-foot {
-  color: black;
-  text-align: center;
-  background-color: rgba(11, 180, 241, 0.219);
-}
-
 .bg-text-footer {
   color: black;
   text-align: center;
 }
 
-#botoneraredes img {
+img {
   width: 50px;
 }
 

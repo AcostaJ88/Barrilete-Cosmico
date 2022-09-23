@@ -308,7 +308,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .tada {
   -webkit-animation-name: tada;
   animation-name: tada;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -454,7 +454,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceIn {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -512,7 +512,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
-  animation-duration: 5s;
+  animation-duration: 2s;
   
 }
 

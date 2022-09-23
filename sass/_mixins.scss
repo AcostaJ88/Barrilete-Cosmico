@@ -1,0 +1,53 @@
+//extend
+
+.submit {
+    padding: 5px;
+        margin: 10px;
+        font: bold 18px sans-serif;
+        border: 2px solid #333;
+        border-radius: 5px;
+        background-image: url(../img/Logo\ Argentina.png);
+        background-attachment: fixed;
+        cursor: pointer;
+        transform: rotate(-1.5deg);
+          &:hover, &:focus {
+            outline     : none;
+            background  :$Bordercolorprimary;
+            color       : $keyColor;
+        }
+}
+.button .reset {
+    @extend .submit;
+        &:hover{
+            color: $secondaryColor;
+            background-color: rgb(198, 17, 17);
+        }   
+}
+//mixins
+
+@mixin datos-form ($width,$bordercolor,$border){
+    width: $width;
+    border-color: $bordercolor;
+    border: $border;
+    background: $backgroundWS;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
+
+.form-register .controls{
+    @include datos-form(380px, $Bordercolorprimary, 1px solid $Bordercolorprimary)
+}
+
+//maps
+
+$Fondos: (
+    'one': url(../img/Fondo.jpeg),
+    'two': url(../img/Fondo2.jpeg),
+    'three': url(../img/Fondo3.jpeg),
+);
+.form-register{
+    background-image: map-get($map: $Fondos, $key: 'one');
+}

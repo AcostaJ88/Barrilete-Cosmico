@@ -1,6 +1,6 @@
 .form-register{
     width: 390px;
-	background-image: url(../img/Fondo.jpeg);
+	//background-image: url(../img/Fondo.jpeg);
 	background-attachment: initial;
 	padding: 5px;
 	margin: auto;
@@ -11,15 +11,15 @@
 	transform: skewX(5deg);
 	cursor: pointer;
 	transform: 2s;
-    & .controls{
-        width: 380px;
-        background: $backgroundWS;
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 15px;
-        border-color: $Bordercolorprimary;
-        border: 1px solid $Bordercolorprimary;
-        font-size: 18px;}
+    // & .controls{
+    //     width: 380px;
+    //     background: $backgroundWS;
+    //     padding: 10px;
+    //     border-radius: 4px;
+    //     margin-bottom: 15px;
+    //     border-color: $Bordercolorprimary;
+    //     border: 1px solid $Bordercolorprimary;
+    //     font-size: 18px;}
     & .platform{
         width: 50%;
         background: $backgroundWS;
@@ -71,22 +71,22 @@
         justify-content: space-around;
         
     }
-    & button {
-        padding: 5px;
-        margin: 10px;
-        font: bold 18px sans-serif;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-image: url(../img/Logo\ Argentina.png);
-        background-attachment: fixed;
-        cursor: pointer;
-        transform: rotate(-1.5deg);
-          &:hover, &:focus {
-            outline     : none;
-            background  :$Bordercolorprimary;
-            color       : $keyColor;
-        }
-    }
+    // & button {
+    //     padding: 5px;
+    //     margin: 10px;
+    //     font: bold 18px sans-serif;
+    //     border: 2px solid #333;
+    //     border-radius: 5px;
+    //     background-image: url(../img/Logo\ Argentina.png);
+    //     background-attachment: fixed;
+    //     cursor: pointer;
+    //     transform: rotate(-1.5deg);
+    //       &:hover, &:focus {
+    //         outline     : none;
+    //         background  :$Bordercolorprimary;
+    //         color       : $keyColor;
+    //     }
+    // }
     }
     body{
 		background-image: url(../img/Fondo3.jpeg);
