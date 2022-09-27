@@ -8,7 +8,7 @@
 	margin-bottom: 25px;
 	border-radius: 4px;
 	color: $keyColor;
-	transform: skewX(5deg);
+	transform: skewX(1deg);
 	cursor: pointer;
 	transform: 2s;
     // & .controls{
@@ -94,6 +94,11 @@
 		background-position: center;
 	}
 
+    .headerlive{
+
+        width: 65%;
+        image-rendering: auto;
+    }
 
 
 

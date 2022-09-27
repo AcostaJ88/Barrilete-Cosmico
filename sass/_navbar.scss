@@ -9,7 +9,17 @@
     color: $secondaryColor;
 }
 .bg-text-blue{
-    color: $maincolor;
+    color: $keyColor;
     text-align: center;
 	font-family: $secondaryFont;
+}
+.headerlive{
+
+    width: 65%;
+    image-rendering: auto;
+}
+#botonera img{
+    width: 80px;
+	
+
 }

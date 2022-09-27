@@ -45,7 +45,7 @@
   margin-bottom: 25px;
   border-radius: 4px;
   color: black;
-  transform: skewX(5deg);
+  transform: skewX(1deg);
   cursor: pointer;
   transform: 2s;
 }
@@ -107,6 +107,11 @@ body {
   background-position: center;
 }
 
+.headerlive {
+  width: 65%;
+  image-rendering: auto;
+}
+
 #botonera img {
   width: 80px;
 }
@@ -120,9 +125,18 @@ body {
 }
 
 .bg-text-blue {
-  color: rgb(51, 121, 213);
+  color: black;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+}
+
+.headerlive {
+  width: 65%;
+  image-rendering: auto;
+}
+
+#botonera img {
+  width: 80px;
 }
 
 .bg-text-footer {
