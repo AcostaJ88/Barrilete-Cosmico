@@ -113,11 +113,11 @@ body {
 }
 
 #botonera img {
-  width: 80px;
+  width: 70px;
 }
 
 .bg-blue {
-  background-color: rgba(11, 180, 241, 0.219);
+  background-color: rgb(139, 215, 243);
 }
 
 .bg-text-cards {
@@ -135,21 +135,17 @@ body {
   image-rendering: auto;
 }
 
-#botonera img {
-  width: 80px;
-}
-
 .bg-text-footer {
   color: black;
   text-align: center;
 }
 
 img {
-  width: 50px;
+  width: 3rem;
 }
 
 .bg-text-blue-foot {
   color: black;
   text-align: center;
-  background-color: rgba(11, 180, 241, 0.219);
+  background-color: rgb(139, 215, 243);
 }/*# sourceMappingURL=main.css.map */

@@ -47,7 +47,9 @@ $Fondos: (
     'one': url(../img/Fondo.jpeg),
     'two': url(../img/Fondo2.jpeg),
     'three': url(../img/Fondo3.jpeg),
+    'four': url(../img/fondo4.jpeg)
 );
 .form-register{
     background-image: map-get($map: $Fondos, $key: 'one');
 }
+
